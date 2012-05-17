@@ -1,18 +1,18 @@
 //
-//  XLFileViewController.m
+//  XLMainViewController.m
 //  UDisk
 //
 //  Created by xie liang on 5/17/12.
 //  Copyright (c) 2012 pretang. All rights reserved.
 //
 
-#import "XLFileViewController.h"
+#import "XLMainViewController.h"
 
-@interface XLFileViewController ()
+@interface XLMainViewController ()
 
 @end
 
-@implementation XLFileViewController
+@implementation XLMainViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

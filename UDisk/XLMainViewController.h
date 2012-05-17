@@ -1,5 +1,5 @@
 //
-//  XLFileViewController.h
+//  XLMainViewController.h
 //  UDisk
 //
 //  Created by xie liang on 5/17/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XLFileViewController : UIViewController
+@interface XLMainViewController : UIViewController
 
 @end
