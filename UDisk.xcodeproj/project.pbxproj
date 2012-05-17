@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0C905891564A01000C8FAB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C905881564A01000C8FAB9 /* UIKit.framework */; };
+		E0C9058B1564A01000C8FAB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C9058A1564A01000C8FAB9 /* Foundation.framework */; };
+		E0C9058D1564A01000C8FAB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C9058C1564A01000C8FAB9 /* CoreGraphics.framework */; };
+		E0C9058F1564A01000C8FAB9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C9058E1564A01000C8FAB9 /* CoreData.framework */; };
+		E0C905951564A01000C8FAB9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E0C905931564A01000C8FAB9 /* InfoPlist.strings */; };
+		E0C905971564A01000C8FAB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C905961564A01000C8FAB9 /* main.m */; };
+		E0C9059B1564A01000C8FAB9 /* XLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9059A1564A01000C8FAB9 /* XLAppDelegate.m */; };
+		E0C9059E1564A01000C8FAB9 /* UDisk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0C9059C1564A01000C8FAB9 /* UDisk.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E0C905841564A01000C8FAB9 /* UDisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C905881564A01000C8FAB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0C9058A1564A01000C8FAB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0C9058C1564A01000C8FAB9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0C9058E1564A01000C8FAB9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E0C905921564A01000C8FAB9 /* UDisk-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UDisk-Info.plist"; sourceTree = "<group>"; };
+		E0C905941564A01000C8FAB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E0C905961564A01000C8FAB9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0C905981564A01000C8FAB9 /* UDisk-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UDisk-Prefix.pch"; sourceTree = "<group>"; };
+		E0C905991564A01000C8FAB9 /* XLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAppDelegate.h; sourceTree = "<group>"; };
+		E0C9059A1564A01000C8FAB9 /* XLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAppDelegate.m; sourceTree = "<group>"; };
+		E0C9059D1564A01000C8FAB9 /* UDisk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UDisk.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0C905811564A01000C8FAB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C905891564A01000C8FAB9 /* UIKit.framework in Frameworks */,
+				E0C9058B1564A01000C8FAB9 /* Foundation.framework in Frameworks */,
+				E0C9058D1564A01000C8FAB9 /* CoreGraphics.framework in Frameworks */,
+				E0C9058F1564A01000C8FAB9 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0C905791564A01000C8FAB9 = {
+			isa = PBXGroup;
+			children = (
+				E0C905901564A01000C8FAB9 /* UDisk */,
+				E0C905871564A01000C8FAB9 /* Frameworks */,
+				E0C905851564A01000C8FAB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0C905851564A01000C8FAB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0C905841564A01000C8FAB9 /* UDisk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0C905871564A01000C8FAB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0C905881564A01000C8FAB9 /* UIKit.framework */,
+				E0C9058A1564A01000C8FAB9 /* Foundation.framework */,
+				E0C9058C1564A01000C8FAB9 /* CoreGraphics.framework */,
+				E0C9058E1564A01000C8FAB9 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0C905901564A01000C8FAB9 /* UDisk */ = {
+			isa = PBXGroup;
+			children = (
+				E0C905991564A01000C8FAB9 /* XLAppDelegate.h */,
+				E0C9059A1564A01000C8FAB9 /* XLAppDelegate.m */,
+				E0C9059C1564A01000C8FAB9 /* UDisk.xcdatamodeld */,
+				E0C905911564A01000C8FAB9 /* Supporting Files */,
+			);
+			path = UDisk;
+			sourceTree = "<group>";
+		};
+		E0C905911564A01000C8FAB9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0C905921564A01000C8FAB9 /* UDisk-Info.plist */,
+				E0C905931564A01000C8FAB9 /* InfoPlist.strings */,
+				E0C905961564A01000C8FAB9 /* main.m */,
+				E0C905981564A01000C8FAB9 /* UDisk-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0C905831564A01000C8FAB9 /* UDisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0C905A11564A01000C8FAB9 /* Build configuration list for PBXNativeTarget "UDisk" */;
+			buildPhases = (
+				E0C905801564A01000C8FAB9 /* Sources */,
+				E0C905811564A01000C8FAB9 /* Frameworks */,
+				E0C905821564A01000C8FAB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UDisk;
+			productName = UDisk;
+			productReference = E0C905841564A01000C8FAB9 /* UDisk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0C9057B1564A01000C8FAB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XL;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = pretang;
+			};
+			buildConfigurationList = E0C9057E1564A01000C8FAB9 /* Build configuration list for PBXProject "UDisk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0C905791564A01000C8FAB9;
+			productRefGroup = E0C905851564A01000C8FAB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0C905831564A01000C8FAB9 /* UDisk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0C905821564A01000C8FAB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C905951564A01000C8FAB9 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0C905801564A01000C8FAB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C905971564A01000C8FAB9 /* main.m in Sources */,
+				E0C9059B1564A01000C8FAB9 /* XLAppDelegate.m in Sources */,
+				E0C9059E1564A01000C8FAB9 /* UDisk.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0C905931564A01000C8FAB9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0C905941564A01000C8FAB9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0C9059F1564A01000C8FAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0C905A01564A01000C8FAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0C905A21564A01000C8FAB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UDisk/UDisk-Prefix.pch";
+				INFOPLIST_FILE = "UDisk/UDisk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0C905A31564A01000C8FAB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UDisk/UDisk-Prefix.pch";
+				INFOPLIST_FILE = "UDisk/UDisk-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0C9057E1564A01000C8FAB9 /* Build configuration list for PBXProject "UDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C9059F1564A01000C8FAB9 /* Debug */,
+				E0C905A01564A01000C8FAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0C905A11564A01000C8FAB9 /* Build configuration list for PBXNativeTarget "UDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C905A21564A01000C8FAB9 /* Debug */,
+				E0C905A31564A01000C8FAB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E0C9059C1564A01000C8FAB9 /* UDisk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E0C9059D1564A01000C8FAB9 /* UDisk.xcdatamodel */,
+			);
+			currentVersion = E0C9059D1564A01000C8FAB9 /* UDisk.xcdatamodel */;
+			path = UDisk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E0C9057B1564A01000C8FAB9 /* Project object */;
+}
