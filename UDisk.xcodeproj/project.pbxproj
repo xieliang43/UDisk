@@ -17,6 +17,7 @@
 		E0C9059E1564A01000C8FAB9 /* UDisk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0C9059C1564A01000C8FAB9 /* UDisk.xcdatamodeld */; };
 		E0C905B41564A1E400C8FAB9 /* XLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C905B21564A1E400C8FAB9 /* XLMainViewController.m */; };
 		E0C905B51564A1E400C8FAB9 /* XLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0C905B31564A1E400C8FAB9 /* XLMainViewController.xib */; };
+		E0C905BC1564AB5800C8FAB9 /* XLTools.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C905BB1564AB5800C8FAB9 /* XLTools.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		E0C905B11564A1E400C8FAB9 /* XLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLMainViewController.h; sourceTree = "<group>"; };
 		E0C905B21564A1E400C8FAB9 /* XLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLMainViewController.m; sourceTree = "<group>"; };
 		E0C905B31564A1E400C8FAB9 /* XLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLMainViewController.xib; sourceTree = "<group>"; };
+		E0C905BA1564AB5800C8FAB9 /* XLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLTools.h; sourceTree = "<group>"; };
+		E0C905BB1564AB5800C8FAB9 /* XLTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLTools.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,8 @@
 		E0C905B01564A14A00C8FAB9 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				E0C905BA1564AB5800C8FAB9 /* XLTools.h */,
+				E0C905BB1564AB5800C8FAB9 /* XLTools.m */,
 			);
 			name = common;
 			sourceTree = "<group>";
@@ -205,6 +210,7 @@
 				E0C9059B1564A01000C8FAB9 /* XLAppDelegate.m in Sources */,
 				E0C9059E1564A01000C8FAB9 /* UDisk.xcdatamodeld in Sources */,
 				E0C905B41564A1E400C8FAB9 /* XLMainViewController.m in Sources */,
+				E0C905BC1564AB5800C8FAB9 /* XLTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
