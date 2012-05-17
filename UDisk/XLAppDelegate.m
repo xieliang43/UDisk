@@ -7,6 +7,7 @@
 //
 
 #import "XLAppDelegate.h"
+#import "XLMainViewController.h"
 
 @implementation XLAppDelegate
 
@@ -18,6 +19,7 @@
 - (void)dealloc
 {
     [_window release];
+    [_mainController release]; 
     [__managedObjectContext release];
     [__managedObjectModel release];
     [__persistentStoreCoordinator release];
@@ -28,7 +30,10 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
+    
+    _mainController = [[XLMainViewController alloc] init];
+    
+    self.window.rootViewController = _mainController;
     [self.window makeKeyAndVisible];
     return YES;
 }

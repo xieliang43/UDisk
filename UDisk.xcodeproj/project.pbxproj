@@ -15,6 +15,8 @@
 		E0C905971564A01000C8FAB9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C905961564A01000C8FAB9 /* main.m */; };
 		E0C9059B1564A01000C8FAB9 /* XLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C9059A1564A01000C8FAB9 /* XLAppDelegate.m */; };
 		E0C9059E1564A01000C8FAB9 /* UDisk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E0C9059C1564A01000C8FAB9 /* UDisk.xcdatamodeld */; };
+		E0C905B41564A1E400C8FAB9 /* XLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C905B21564A1E400C8FAB9 /* XLMainViewController.m */; };
+		E0C905B51564A1E400C8FAB9 /* XLMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0C905B31564A1E400C8FAB9 /* XLMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		E0C905991564A01000C8FAB9 /* XLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLAppDelegate.h; sourceTree = "<group>"; };
 		E0C9059A1564A01000C8FAB9 /* XLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLAppDelegate.m; sourceTree = "<group>"; };
 		E0C9059D1564A01000C8FAB9 /* UDisk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UDisk.xcdatamodel; sourceTree = "<group>"; };
+		E0C905B11564A1E400C8FAB9 /* XLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLMainViewController.h; sourceTree = "<group>"; };
+		E0C905B21564A1E400C8FAB9 /* XLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLMainViewController.m; sourceTree = "<group>"; };
+		E0C905B31564A1E400C8FAB9 /* XLMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,10 @@
 		E0C905901564A01000C8FAB9 /* UDisk */ = {
 			isa = PBXGroup;
 			children = (
+				E0C905B01564A14A00C8FAB9 /* common */,
+				E0C905AF1564A12F00C8FAB9 /* mode */,
+				E0C905AE1564A12200C8FAB9 /* view */,
+				E0C905AC1564A11800C8FAB9 /* controller */,
 				E0C905991564A01000C8FAB9 /* XLAppDelegate.h */,
 				E0C9059A1564A01000C8FAB9 /* XLAppDelegate.m */,
 				E0C9059C1564A01000C8FAB9 /* UDisk.xcdatamodeld */,
@@ -95,6 +104,37 @@
 				E0C905981564A01000C8FAB9 /* UDisk-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0C905AC1564A11800C8FAB9 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0C905B11564A1E400C8FAB9 /* XLMainViewController.h */,
+				E0C905B21564A1E400C8FAB9 /* XLMainViewController.m */,
+				E0C905B31564A1E400C8FAB9 /* XLMainViewController.xib */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		E0C905AE1564A12200C8FAB9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		E0C905AF1564A12F00C8FAB9 /* mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = mode;
+			sourceTree = "<group>";
+		};
+		E0C905B01564A14A00C8FAB9 /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0C905951564A01000C8FAB9 /* InfoPlist.strings in Resources */,
+				E0C905B51564A1E400C8FAB9 /* XLMainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +204,7 @@
 				E0C905971564A01000C8FAB9 /* main.m in Sources */,
 				E0C9059B1564A01000C8FAB9 /* XLAppDelegate.m in Sources */,
 				E0C9059E1564A01000C8FAB9 /* UDisk.xcdatamodeld in Sources */,
+				E0C905B41564A1E400C8FAB9 /* XLMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +271,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UDisk/UDisk-Prefix.pch";
 				INFOPLIST_FILE = "UDisk/UDisk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -240,6 +283,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UDisk/UDisk-Prefix.pch";
 				INFOPLIST_FILE = "UDisk/UDisk-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -264,6 +308,7 @@
 				E0C905A31564A01000C8FAB9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
