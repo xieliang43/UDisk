@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XLTools.h"
 
 @interface XLMainViewController : UIViewController
+<UIAlertViewDelegate>
+{
+    NSString *_password;
+    
+    UITextField *_setPassField;
+}
+
+@property(nonatomic,strong) IBOutlet UITextField *passwordField;
+
+- (IBAction)doVerify:(id)sender;
 
 @end

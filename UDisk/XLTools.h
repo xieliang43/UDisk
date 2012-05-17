@@ -10,4 +10,7 @@
 
 @interface XLTools : NSObject
 
++ (void)savePassword:(NSString *)password;
++ (NSString *)password;
+
 @end

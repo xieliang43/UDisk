@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		E07604AC1564BF2F008723FC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E07604AE1564BF2F008723FC /* Localizable.strings */; };
+		E07604BB1564D1B5008723FC /* XLFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E07604B91564D1B5008723FC /* XLFileViewController.m */; };
+		E07604BC1564D1B5008723FC /* XLFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E07604BA1564D1B5008723FC /* XLFileViewController.xib */; };
 		E0C905891564A01000C8FAB9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C905881564A01000C8FAB9 /* UIKit.framework */; };
 		E0C9058B1564A01000C8FAB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C9058A1564A01000C8FAB9 /* Foundation.framework */; };
 		E0C9058D1564A01000C8FAB9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0C9058C1564A01000C8FAB9 /* CoreGraphics.framework */; };
@@ -24,6 +26,9 @@
 /* Begin PBXFileReference section */
 		E07604AD1564BF2F008723FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		E07604B01564BF3D008723FC /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E07604B81564D1B5008723FC /* XLFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLFileViewController.h; sourceTree = "<group>"; };
+		E07604B91564D1B5008723FC /* XLFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLFileViewController.m; sourceTree = "<group>"; };
+		E07604BA1564D1B5008723FC /* XLFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XLFileViewController.xib; sourceTree = "<group>"; };
 		E0C905841564A01000C8FAB9 /* UDisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C905881564A01000C8FAB9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E0C9058A1564A01000C8FAB9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +63,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E07604B51564D15F008723FC /* main */ = {
+			isa = PBXGroup;
+			children = (
+				E0C905B11564A1E400C8FAB9 /* XLMainViewController.h */,
+				E0C905B21564A1E400C8FAB9 /* XLMainViewController.m */,
+				E0C905B31564A1E400C8FAB9 /* XLMainViewController.xib */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		E07604B71564D191008723FC /* file */ = {
+			isa = PBXGroup;
+			children = (
+				E07604B81564D1B5008723FC /* XLFileViewController.h */,
+				E07604B91564D1B5008723FC /* XLFileViewController.m */,
+				E07604BA1564D1B5008723FC /* XLFileViewController.xib */,
+			);
+			name = file;
+			sourceTree = "<group>";
+		};
 		E0C905791564A01000C8FAB9 = {
 			isa = PBXGroup;
 			children = (
@@ -93,9 +118,6 @@
 				E0C905AF1564A12F00C8FAB9 /* mode */,
 				E0C905AE1564A12200C8FAB9 /* view */,
 				E0C905AC1564A11800C8FAB9 /* controller */,
-				E0C905991564A01000C8FAB9 /* XLAppDelegate.h */,
-				E0C9059A1564A01000C8FAB9 /* XLAppDelegate.m */,
-				E0C9059C1564A01000C8FAB9 /* UDisk.xcdatamodeld */,
 				E0C905911564A01000C8FAB9 /* Supporting Files */,
 			);
 			path = UDisk;
@@ -116,9 +138,8 @@
 		E0C905AC1564A11800C8FAB9 /* controller */ = {
 			isa = PBXGroup;
 			children = (
-				E0C905B11564A1E400C8FAB9 /* XLMainViewController.h */,
-				E0C905B21564A1E400C8FAB9 /* XLMainViewController.m */,
-				E0C905B31564A1E400C8FAB9 /* XLMainViewController.xib */,
+				E07604B71564D191008723FC /* file */,
+				E07604B51564D15F008723FC /* main */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -142,6 +163,9 @@
 			children = (
 				E0C905BA1564AB5800C8FAB9 /* XLTools.h */,
 				E0C905BB1564AB5800C8FAB9 /* XLTools.m */,
+				E0C905991564A01000C8FAB9 /* XLAppDelegate.h */,
+				E0C9059A1564A01000C8FAB9 /* XLAppDelegate.m */,
+				E0C9059C1564A01000C8FAB9 /* UDisk.xcdatamodeld */,
 			);
 			name = common;
 			sourceTree = "<group>";
@@ -202,6 +226,7 @@
 				E0C905951564A01000C8FAB9 /* InfoPlist.strings in Resources */,
 				E0C905B51564A1E400C8FAB9 /* XLMainViewController.xib in Resources */,
 				E07604AC1564BF2F008723FC /* Localizable.strings in Resources */,
+				E07604BC1564D1B5008723FC /* XLFileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +242,7 @@
 				E0C9059E1564A01000C8FAB9 /* UDisk.xcdatamodeld in Sources */,
 				E0C905B41564A1E400C8FAB9 /* XLMainViewController.m in Sources */,
 				E0C905BC1564AB5800C8FAB9 /* XLTools.m in Sources */,
+				E07604BB1564D1B5008723FC /* XLFileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

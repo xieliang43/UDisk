@@ -10,4 +10,15 @@
 
 @implementation XLTools
 
++ (void)savePassword:(NSString *)password
+{
+    [[NSUserDefaults standardUserDefaults] setObject:password forKey:@"password"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+}
+
++ (NSString *)password
+{
+    return [[NSUserDefaults standardUserDefaults] objectForKey:@"password"];
+}
+
 @end

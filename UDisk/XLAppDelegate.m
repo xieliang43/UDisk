@@ -31,7 +31,7 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     
-    _mainController = [[XLMainViewController alloc] init];
+    _mainController = [[XLMainViewController alloc] initWithNibName:nil bundle:nil];
     
     self.window.rootViewController = _mainController;
     [self.window makeKeyAndVisible];
